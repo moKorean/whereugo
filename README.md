@@ -14,13 +14,16 @@ description from 멤피스(clien)
 4. xcode 설치
 5. xcode Preference > Account에 자신의 apple ID 등록
 6. 위 링크에 있는 project 파일 열기
-7. Project의 info.plist에서 2번에서 얻은  자신만의 key 값으로 기존 값 변경(네이티브 앱 key -> KAKAO_APP_KEY, REST API key -> KAKAO_RESTAPI_KEY)
-8. 폰을 맥과 연결
-9. Project Target을 연결된 폰으로 지정
-10. 빌드
+7. Project의 info.plist에서 2번에서 얻은  자신만의 key 값으로 기존 값 변경 (네이티브 앱 key -> KAKAO_APP_KEY 오른쪽의 [네이티브 앱 키] 라는 부분을 바꾸시고, REST API key -> KAKAO_RESTAPI_KEY : [REST API 키] 의 값을 바꾸시면 됩니다.)
+8. 프로젝트파일의 General 탭에서 Bundle Identifier 를 3번과정에서 만든 Bundle Identifier 로 변경합니다.
+9. 폰을 맥과 연결
+10. Project Target을 연결된 폰으로 지정
+11. 빌드
 
 이 과정에서 DEVELOPMENT_TEAM을 자신의 애플 계정(personal-team)으로 설정하고, Bundle Identifier를 나만의 고유한 문자열로 변경하는 등의 변경이 필요합니다. 한번 해 보니 실은 이런 것들이 더 어렵(?)게 보이네요. 여기에 자신의 애플 계정에서 만든 앱을 폰에서 신뢰할 수 있게 하는 절차 등이 필요합니다. 
 
 참고 링크
 https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:hyb3.5:hrte:runiphone
 https://medium.com/@adie0423/자신의-아이폰에-테스트-앱-올리기-54e07e17d3f7
+
+* 애플 개발자 중에 앱스토어에 올려보실 분은 메일주세요 (mokorean@gmail.com)
